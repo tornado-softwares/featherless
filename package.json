@@ -1,0 +1,32 @@
+{
+  "name": "featherless",
+  "version": "1.0.0",
+  "description": "Featherless is a serverless inference provider offering advanced model loading and GPU orchestration capabilities.",
+  "keywords": ["featherless", "ai", "sdk"],
+  "author": "Tornado Softwares",
+  "license": "ISC",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.9",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
