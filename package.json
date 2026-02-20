@@ -1,6 +1,6 @@
 {
   "name": "featherless",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Featherless is a serverless inference provider offering advanced model loading and GPU orchestration capabilities.",
   "keywords": [
     "featherless",
