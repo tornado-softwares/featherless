@@ -2,9 +2,17 @@
   "name": "featherless",
   "version": "0.0.1",
   "description": "Featherless is a serverless inference provider offering advanced model loading and GPU orchestration capabilities.",
-  "keywords": ["featherless", "ai", "sdk"],
+  "keywords": [
+    "featherless",
+    "ai",
+    "sdk"
+  ],
   "author": "Tornado Softwares",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tornado-softwares/featherless.git"
+  },
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
