@@ -14,7 +14,7 @@ Featherless is a serverless inference provider offering advanced model loading a
 
 ## Installation
 
-To install the Featherless SDK, use npm or yarn:
+To install the Featherless SDK, use :
 
 ```bash
 npm install featherless
